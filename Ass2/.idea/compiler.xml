@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Ass2" />
+        <module name="commonclasses" />
+        <module name="remoteserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Ass2" target="1.6" />
+      <module name="common-classes" target="1.6" />
+      <module name="commonclasses" target="1.5" />
+      <module name="remoteserver" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
